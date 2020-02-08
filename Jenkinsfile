@@ -31,3 +31,7 @@ pipelineScanServerToolName = "enterprise-sonar-2"
 pipelineScanClientToolName = "sonar"
 
 }
+
+//send e-mail
+poorna.kallm@gmail.com
+
