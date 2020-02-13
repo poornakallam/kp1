@@ -1,9 +1,12 @@
-//@Library('latest')_
-
 //maven config 
 mavenPipelinePlugin{
 
-//build configuration
+//Basic properties
+     ait = aitnumber
+     spk = spkname
+     repo = reponame 
+
+ //build configuration
 cleanWorkspace = true
 pipeLineBuildToolName = "apache-maven-3.0.5"
 pipelineJdkToolName = "JDK17"
