@@ -11,7 +11,7 @@ buildDefinitionFile = "pom.xml"
 
 baselineVersion = 1.0
 
-//package and publish artifactory
+/* //package and publish artifactory
 artifactoryRepo = "maven"
 puslidhMasterToRelease = false
 executeCreateArtifact = true
@@ -31,4 +31,5 @@ sonarPropertyFile = "sonar-project.properties"
 pipelineScanServerToolName = "enterprise-sonar-2"
 pipelineScanClientToolName = "sonar"
 
+*/
 }
