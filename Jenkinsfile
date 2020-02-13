@@ -1,4 +1,5 @@
-@Library('latest')_
+//@Library('latest')_
+
 //maven config 
 mavenPipelinePlugin{
 
