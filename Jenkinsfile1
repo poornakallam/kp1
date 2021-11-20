@@ -4,11 +4,14 @@ pipeline {
  tools {
   maven "maven 3.8.3"
   }
-  
- triggers {
-   pollSCM('* * * * *')
-   }
- stages {
+ parameters {
+    choice (name: 'BranchName', choices: ['development', 'stage', 'master'])
+    }
+  stages {
+   stage ('parametarized') {
+     git branch: "${BranchName}", url: 'https://github.com/poornakallam/maven-web-application.git'
+     }
+     }
    stage ('git') {
      steps {
        git 'https://github.com/poornakallam/maven-web-application.git'
@@ -21,5 +24,6 @@ pipeline {
        }
        
    }
+}
        
        
