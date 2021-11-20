@@ -9,6 +9,7 @@ pipeline {
     }
   stages {
    stage ('parametarized') {
+     steps {
      git branch: "${BranchName}", url: 'https://github.com/poornakallam/maven-web-application.git'
      }
      }
