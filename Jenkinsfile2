@@ -1,4 +1,4 @@
-@Library('kallam') _
+@Library(['kallam', 'poorna']) _
 
 pipeline {
   agent any
