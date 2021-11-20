@@ -1,0 +1,29 @@
+@Library('kallam') _
+
+pipeline {
+  agent any
+  tools {
+   maven 'maven3.8.3'
+   }
+  parameters {
+   choice (name: 'Branchname', choices: ['develoment', 'stage', 'master'])
+  }
+  stages {
+    stage ('git') {
+      steps {
+       git branch: 'development', url: 'https://github.com/poornakallam/kp1.git'
+       }
+      }
+     stage ('build') {
+       steps {
+        stages('compile')
+	}
+	}
+     stage ('test') {
+       steps {
+         stages('test')
+	 }
+	 }
+ }
+}
+
