@@ -1,4 +1,5 @@
 name: sample
+
 on:
  pull_request:
    branches:
