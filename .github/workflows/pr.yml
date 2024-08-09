@@ -13,10 +13,10 @@ jobs:
       - name: validate
         run: |
           INPUT="${{github.event.pull_request.title}}"
-          JIRA=$($INPUT | cut -d ':' -f 1)
-          PROJECT=$($JIRA | cut -d '-' -f 1)
-          PROJECT_PROJECT=$($INPUT | cut -d ':' -f 1)
-          if [[ $PROJECT == "SA" && $PROJECT_PROJECT == "maven(dump)" ]]; then
+          JIRA=$(echo $INPUT | cut -d ':' -f 1)
+          PROJECT=$( echo $JIRA | cut -d '-' -f 1)
+          PROJECT_PROJECT=$(echo $INPUT | cut -d ':' -f 1)
+          if [[ $PROJECT == "SA" || $PROJECT_PROJECT == "maven(dump)" ]]; then
             echo "project id is valid"
           else
             echo "project id invalid"
