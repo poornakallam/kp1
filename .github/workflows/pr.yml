@@ -27,7 +27,7 @@ jobs:
             re='^[0-9]+$'
             [[ $1 =~ $re ]]
           }
-          if [[ ${#JIRA_ID} -eq 4 && "$JIRA_ID" =~ ^[0-9]+$ ]]; then
+          if [[ ${#JIRA_ID} -eq 4 && "$JIRA_ID" =~ ^[0-9]+$ || $PROJECT_PROJECT == "maven(deps)" ]]; then
             echo "JIRA ID is Validated Successfully"
             exit 0
           else
