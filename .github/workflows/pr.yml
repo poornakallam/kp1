@@ -21,5 +21,17 @@ jobs:
           else
             echo "project id invalid"
           fi
+                    is_integer() {
+            re='^[0-9]+$'
+            [[ $1 =~ $re ]]
+          }
+          if [[ ${#JIRA_ID} -eq 4 && "$JIRA_ID" =~ ^[0-9]+$ ]]; then
+            echo "JIRA ID is Validated Successfully"
+            exit 0
+          else
+            echo "JIRA ID not Valid! Please provide as below, PR title is case sensitive"
+            echo "SA-1234: Description of the ticket"
+            exit 1
+          fi
 
            
