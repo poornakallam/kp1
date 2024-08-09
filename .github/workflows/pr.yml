@@ -15,13 +15,15 @@ jobs:
           INPUT="${{github.event.pull_request.title}}"
           JIRA=$(echo $INPUT | cut -d ':' -f 1)
           PROJECT=$( echo $JIRA | cut -d '-' -f 1)
+          JIRA_ID=$(echo $JIRA | cut -d '-' -f 2)
           PROJECT_PROJECT=$(echo $INPUT | cut -d ':' -f 1)
           if [[ $PROJECT == "SA" || $PROJECT_PROJECT == "maven(deps)" ]]; then
             echo "project id is valid"
           else
             echo "project id invalid"
+            exit 1
           fi
-                    is_integer() {
+          is_integer() {
             re='^[0-9]+$'
             [[ $1 =~ $re ]]
           }
