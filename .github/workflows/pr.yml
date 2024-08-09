@@ -1,0 +1,24 @@
+name: sample
+on:
+ pull_request:
+   branches:
+    - '*'
+jobs:
+  sample:
+    name: sample
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: validate
+        run: |
+          INPUT = "${{github.event.pull_request.title}}"
+          JIRA =$($INPUT | cut -d ':' -f 1)
+          PROJECT = $($JIRA | cut -d '-' -f 1)
+          PROJECT_PROJECT = $($INPUT | cut -d ':' -f 1)
+          if [[ $PROJECT = "SA" && $PROJECT_PROJECT = "maven(dump)" ]]; then
+            echo "project id is valid"
+          else
+            echo "project id invalid"
+          fi
+
+           
