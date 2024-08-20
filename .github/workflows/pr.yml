@@ -1,0 +1,41 @@
+name: sample
+
+on:
+ pull_request:
+   branches:
+    - '*'
+    
+jobs:
+  sample:
+    name: sample
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: validate
+        run: |
+          INPUT="${{github.event.pull_request.title}}"
+          JIRA=$(echo $INPUT | cut -d ':' -f 1)
+          PROJECT=$( echo $JIRA | cut -d '-' -f 1)
+          JIRA_ID=$(echo $JIRA | cut -d '-' -f 2)
+          PROJECT_PROJECT=$(echo $INPUT | cut -d ':' -f 1)
+          BUMP=$(echo $INPUT | cut -d ' ' -f 1)
+          if [[ $PROJECT == "SA" || $PROJECT_PROJECT == "maven(deps)" || $BUMP == "Bump" ]]; then
+            echo "project id is valid"
+          else
+            echo "project id invalid"
+            exit 1
+          fi
+          is_integer() {
+            re='^[0-9]+$'
+            [[ $1 =~ $re ]]
+          }
+          if [[ ${#JIRA_ID} -eq 4 && "$JIRA_ID" =~ ^[0-9]+$ || $PROJECT_PROJECT == "maven(deps)" || $BUMP == "Bump" ]]; then
+            echo "JIRA ID is Validated Successfully"
+            exit 0
+          else
+            echo "JIRA ID not Valid! Please provide as below, PR title is case sensitive"
+            echo "SA-1234: Description of the ticket"
+            exit 1
+          fi
+
+           
