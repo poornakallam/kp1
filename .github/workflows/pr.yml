@@ -17,7 +17,8 @@ jobs:
           PROJECT=$( echo $JIRA | cut -d '-' -f 1)
           JIRA_ID=$(echo $JIRA | cut -d '-' -f 2)
           PROJECT_PROJECT=$(echo $INPUT | cut -d ':' -f 1)
-          if [[ $PROJECT == "SA" || $PROJECT_PROJECT == "maven(deps)" ]]; then
+          BUMP=$(echo $INPUT | cut -d ' ' -f 1)
+          if [[ $PROJECT == "SA" || $PROJECT_PROJECT == "maven(deps)" || $BUMP == "Bump" ]]; then
             echo "project id is valid"
           else
             echo "project id invalid"
@@ -27,7 +28,7 @@ jobs:
             re='^[0-9]+$'
             [[ $1 =~ $re ]]
           }
-          if [[ ${#JIRA_ID} -eq 4 && "$JIRA_ID" =~ ^[0-9]+$ || $PROJECT_PROJECT == "maven(deps)" ]]; then
+          if [[ ${#JIRA_ID} -eq 4 && "$JIRA_ID" =~ ^[0-9]+$ || $PROJECT_PROJECT == "maven(deps)" || $BUMP == "Bump" ]]; then
             echo "JIRA ID is Validated Successfully"
             exit 0
           else
