@@ -1,0 +1,22 @@
+name: e2e
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: input of required environment
+        required: true
+        default: 'none'
+jobs:
+  e2e_test:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    #env:
+    steps:
+      - uses: actions/checkout@v4
+      
+
+
+
+
