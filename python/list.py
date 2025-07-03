@@ -5,10 +5,10 @@
 # e=3.00 * 100
 # f=4.39 * 100
 
-# A=(a+b+c+d+e+f)/100
+A=(a+b+c)*100/100
 a=16.68
 b=6.98
 c=16.78
-A=a+b+c
-#print(A)
-print(round(A, 2))
+#A=a+b+c
+print(A)
+#print(round(A, 2))
