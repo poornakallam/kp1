@@ -1,2 +1,2 @@
 A="Just do it!"
-print([10])
+print(A[10])
