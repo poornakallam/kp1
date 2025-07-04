@@ -1,6 +1,6 @@
 A=3
 B=3.50
-C=name
+C=bun
 D=str(3)
 
 print(type(A))
