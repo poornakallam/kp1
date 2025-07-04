@@ -1,7 +1,7 @@
 A=3
 B=3.50
-C=true
-D=str(false)
+C=True
+D=str(False)
 
 print(type(A))
 print(type(B))
