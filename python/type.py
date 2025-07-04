@@ -4,11 +4,11 @@ C=True
 D=str(False)
 
 print(type(A))
-print(str(A) + "is int")
+print(str(A) +  "is int")
 print(type(B))
 print(type(C))
 print(type(D))
 
 print("\"Hello, I'm \'poorna\'! glad to meet you\"\nwanted to share info\tmust help you\\")
 
-print("*****\n ****\n ***\n **\n *")
+print("*****\n *** \n * ")
