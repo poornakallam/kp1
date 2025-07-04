@@ -1,4 +1,4 @@
-name: pyrhon course
+name: python course
 on: 
   push:
     branches: 
@@ -15,7 +15,7 @@ jobs:
           python-version: '3.10'
       - name: run file
         run : |
-          python ./python/strings.py
+          python ./python/type.py
           
 
         

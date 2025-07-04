@@ -11,7 +11,7 @@ print(A[:4])
 # key="D" + "-" + "R"
 # prints D-R as results
 
-B= A[4:]
+B=A[4:]
 
 #print("Don't" + A[4:])
 print( "Don't" + B)
