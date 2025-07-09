@@ -22,4 +22,4 @@ name_printer(7)
 def rect_lenght(l, w, h):
     return l * w * h
 
-print("the lenght of rectanguler is" + rect_lenght(lenght, width, height) + "feets".)
+print("the lenght of rectanguler is" + str(rect_lenght(lenght, width, height)) + "feets".)
