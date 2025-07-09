@@ -14,8 +14,8 @@ def name_printer(p):
 name_printer(7)
 
 def rectanguler():
-    print(l * b * w)
+    return l * b * w
 
-rectanguler()
+print(rectanguler())
 
 
