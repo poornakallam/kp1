@@ -1,6 +1,6 @@
-l=30
-b=20
-w=10
+lenght=30
+height=20
+width=10
 
 
 def hello():
@@ -19,3 +19,7 @@ def rectanguler(l):
 print(rectanguler(20))
 
 
+def rect_lenght(l, w, h)
+    return l * w * h
+
+print("the lenght of rectanguler is" + rect_lenght(lenght, width, height) + "feets".)
