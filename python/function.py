@@ -1,4 +1,4 @@
-lenght=30
+length=30
 width=10
 height=20
 
