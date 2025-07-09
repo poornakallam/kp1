@@ -1,7 +1,6 @@
 lenght=30
-height=20
 width=10
-
+height=20
 
 def hello():
     print("hello world")
@@ -19,7 +18,8 @@ name_printer(7)
 #print(rectanguler(20))
 
 
-def rect_lenght(l, w, h):
+def prism_vol(l, w, h):
     return l * w * h
-
-print("the lenght of rectanguler is" + str(rect_lenght(lenght, width, height)) + "feets".)
+ 
+ 
+print("The volume of the rectangular prism is " + str(prism_vol(length, width, height)) + " cubic feet.")
