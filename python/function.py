@@ -13,13 +13,13 @@ def name_printer(p):
 
 name_printer(7)
 
-def rectanguler(l):
-    return l * b * w
+#def rectanguler(l):
+#    return l * b * w
+#
+#print(rectanguler(20))
 
-print(rectanguler(20))
 
-
-def rect_lenght(l, w, h)
+def rect_lenght(l, w, h):
     return l * w * h
 
 print("the lenght of rectanguler is" + rect_lenght(lenght, width, height) + "feets".)
