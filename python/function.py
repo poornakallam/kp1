@@ -4,7 +4,7 @@ w=10
 
 
 def hello():
-    print(hello world)
+    print("hello world")
 
 hello()    
 
