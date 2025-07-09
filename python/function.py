@@ -16,6 +16,6 @@ name_printer(7)
 def rectanguler():
     return l * b * w
 
-print(rectanguler())
+print(rectanguler(20))
 
 
