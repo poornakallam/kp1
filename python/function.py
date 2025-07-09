@@ -13,7 +13,7 @@ def name_printer(p):
 
 name_printer(7)
 
-def rectanguler(l, b, w):
+def rectanguler():
     print(l * b * w)
 
 rectanguler()
