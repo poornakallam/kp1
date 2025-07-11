@@ -1,4 +1,5 @@
 key="value"
+fruit="banana"
 
 def loc_ex():
     name="local value"
@@ -16,3 +17,11 @@ def glo_ex():
     return key
 
 print(glo_ex())
+
+def loc_exec():
+    global fruit
+    fruit="apple"
+    print(fruit)
+
+loc_exec()
+print(fruit)
