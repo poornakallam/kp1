@@ -1,3 +1,5 @@
+key="value"
+
 def loc_ex():
     name="local value"
     return name
@@ -9,3 +11,8 @@ def loc_exe():
     print(code)
 
 loc_exe()
+
+def glo_ex():
+    return key
+
+glo_ex()
