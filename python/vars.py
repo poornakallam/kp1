@@ -7,7 +7,7 @@ def loc_ex():
 print(loc_ex())
 
 def loc_exe():
-    code="code"
+    code= "code"
     print(key  + code)
 
 loc_exe()
