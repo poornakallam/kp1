@@ -6,7 +6,6 @@ print(loc_ex())
 
 def loc_exe():
     code="code"
-    return code
+    print(code)
 
-print(code)
 loc_exe()
