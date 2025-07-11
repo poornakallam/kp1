@@ -8,7 +8,7 @@ print(loc_ex())
 
 def loc_exe():
     code="code"
-    print(key + code)
+    print(key +  code)
 
 loc_exe()
 
