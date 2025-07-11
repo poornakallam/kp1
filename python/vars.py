@@ -15,4 +15,4 @@ loc_exe()
 def glo_ex():
     return key
 
-glo_ex()
+print(glo_ex())
