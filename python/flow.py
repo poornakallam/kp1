@@ -11,7 +11,7 @@
 #             print("score" + "is a D.")
 
 student=90
-university=yes
+university="yes"
 
 if student>=90:
    if university=="yes":
