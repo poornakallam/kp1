@@ -14,7 +14,7 @@ student=90
 university=yes
 
 if student>=90:
-   if university == yes:
+   if university=="yes":
       print("eligible for this university due to secured" +  str(student) + "%")
    else:
           print("not eligible for this university who secured below 90%")
