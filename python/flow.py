@@ -10,8 +10,8 @@
 #         else:
 #             print("score" + "is a D.")
 
-student=80
-university="yes"
+student=95
+university="no"
 
 if student>=90:
    if university=="yes":
