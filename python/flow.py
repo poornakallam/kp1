@@ -1,4 +1,4 @@
-score=int("85")
+score=int("70")
 if score>=90:
    print("score" + "is an A.") 
 else:
@@ -6,6 +6,6 @@ else:
        print("score" + "is a B.")
     else:
         if score>=70:
-           print("score" + "is a C.")
+           print(str(score) + "is a C.")
         else:
             print("score" + "is a D.")
