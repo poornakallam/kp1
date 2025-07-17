@@ -12,4 +12,4 @@ number=range(30, 5, -5)
 
 for num in number:
     print(num)
-    print(type(num))
+    print(type(number))
