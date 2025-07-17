@@ -8,7 +8,8 @@ word="apple"
 for num in word:
     print(num)
 
-number=range(2, 20, 3)
+number=range(30, 5, -5)
 
 for num in number:
     print(num)
+    print(type(num))
