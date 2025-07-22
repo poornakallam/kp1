@@ -14,8 +14,13 @@
 #     print(num)
 #     print(type(number))
 
-number=10
+# number=10
 
-while number != 0:
-    print(number)
-    number -= 1    
+# while number != 0:
+#     print(number)
+#     number -= 1    
+
+word="hello world"
+
+for carec in word:
+    print(carec)
