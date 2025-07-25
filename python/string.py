@@ -5,8 +5,8 @@
 # print(words)
 
 print("I am the queen for home"[6].isspace())
-print("I am the queen for home".split(""))
-print("".join(["queen", "for", "home"]))
+print("I am the queen for home".split(","))
+print(" ".join(["queen", "for", "home"]))
 # print(mixed_var.upper())
 # print(mixed_var.isupper())
 # print(name.isalpha())
