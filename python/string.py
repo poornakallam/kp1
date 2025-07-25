@@ -1,14 +1,14 @@
 mixed_var="A song with ice and cold"
 name="words"
-
-print(mixed_var.upper())
-print(mixed_var.isupper())
-print(name.isalpha())
-print(mixed_var[5].isspace())
-title_case=mixed_var.title()
-print(mixed_var.istitle())
-print(title_case)
-print(mixed_var.startswith("A"))
-print(mixed_var.startswith("song"))
-print(mixed_var.endswith("cold"))
-
+words=mixed_var.split()
+print(words)
+# print(mixed_var.upper())
+# print(mixed_var.isupper())
+# print(name.isalpha())
+# print(mixed_var[5].isspace())
+# title_case=mixed_var.title()
+# print(mixed_var.istitle())
+# print(title_case)
+# print(mixed_var.startswith("A"))
+# print(mixed_var.startswith("song"))
+# print(mixed_var.endswith("cold"))
