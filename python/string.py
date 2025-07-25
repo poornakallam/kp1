@@ -1,6 +1,7 @@
 mixed_var="A song with ice and cold"
+name="words"
 
 print(mixed_var.upper())
 print(mixed_var.isupper())
-print(mixed_var.isalpha())
-print(mixed_var.isspace())
+print(name.isalpha())
+print(mixed_var[5].isspace())
