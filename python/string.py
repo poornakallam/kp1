@@ -1,8 +1,12 @@
-mixed_var="A song with ice and cold"
-name="words"
-words=mixed_var.split(",")
-print("".join(words).isalpha())
-print(words)
+# mixed_var="A song with ice and cold"
+# name="words"
+# words=mixed_var.split(",")
+# print("".join(words).isalpha())
+# print(words)
+
+print("I am the queen for home"[5].isspace())
+print("I am the queen for home".split())
+print("".join([queen, for, home]))
 # print(mixed_var.upper())
 # print(mixed_var.isupper())
 # print(name.isalpha())
