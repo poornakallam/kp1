@@ -1,6 +1,6 @@
 mixed_var="A song with ice and cold"
 name="words"
-words=mixed_var.split()
+words=mixed_var.split(",")
 print(words)
 # print(mixed_var.upper())
 # print(mixed_var.isupper())
