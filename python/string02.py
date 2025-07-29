@@ -11,3 +11,7 @@ print("eggs, milk, bread, milk".lstrip(", eggs"))
 print("eggs, milk, bread, milk".rstrip(", ilmk"))
 print("eggs, milk, bread, milk".strip(", milk"))
 print("eggs, milk, bread, milk".replace("bread", "biscuit"))
+
+the_string="North Dakota"
+center_plus=the_string.center(16, "+")
+print(center_plus.strip("+"))
