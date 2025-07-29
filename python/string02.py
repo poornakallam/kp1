@@ -6,4 +6,4 @@ print(name.center(15, "0"))
 
 #parameter=("eggs", "milk", "bread", "milk")
 
-print("eggs", "milk", "bread", "milk".rstrip("milk"))
+print("eggs", "milk", "bread", "milk".rstrip(", milk"))
