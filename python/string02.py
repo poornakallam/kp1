@@ -15,3 +15,5 @@ name="hello world"
 the_string="North Dakota"
 center_plus=the_string.center(16, "+")
 print(center_plus.strip("+"))
+
+print(center_plus)
