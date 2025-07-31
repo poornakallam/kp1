@@ -1,5 +1,9 @@
 check_list=[1, 1.1, True, "name", [2, 3, 4]]
 
-variable=e in check_list
+variable=list("name")
 
-print(list(variable))
+print("e" in variable)
+print("a" not in variable)
+
+lit_str = 1 in check_list
+print(list(lit_str))
