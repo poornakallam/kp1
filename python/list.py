@@ -6,4 +6,4 @@ print("e" in variable)
 print("a" not in variable)
 
 lit_str = 1 in check_list
-print(list(lit_str))
+print(lit_str)
