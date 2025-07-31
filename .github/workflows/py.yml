@@ -15,7 +15,7 @@ jobs:
           python-version: '3.10'
       - name: run file
         run : |
-          python ./python/lenstring.py
+          python ./python/list.py
           
 
         
