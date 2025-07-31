@@ -1,5 +1,5 @@
 check_list=[1, 1.1, True, "name", [2, 3, 4]]
 
-variable=list(check_list)
+variable="e" in check_list
 
-print(variable)
+print(list(variable))
