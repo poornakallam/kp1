@@ -9,4 +9,6 @@ numbers=[0.98, 8.76, 6.54, 4.32]
 print(numbers[1:])
 print(numbers[1:3])
 print(numbers[:2])
+print(list_items.pop())
+
 
