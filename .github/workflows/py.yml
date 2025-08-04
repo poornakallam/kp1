@@ -15,7 +15,7 @@ jobs:
           python-version: '3.10'
       - name: run file
         run : |
-          python ./python/list.py
+          python ./python/index_list.py
           
 
         
