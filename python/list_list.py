@@ -1,5 +1,5 @@
 arctic_animals=["penguin", "elephant", "polar bear", "walrus", "tiger", "reindeer"]
-print(del arctic_animals(4))
+del arctic_animals(4)
 print(arctic_animals.remove("elephant"))
 print(arctic_animals.append("arctic fox"))
 print(arctic_animals.insert(3, "arctic fox"))
