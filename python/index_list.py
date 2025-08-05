@@ -10,5 +10,3 @@ print(numbers[1:])
 print(numbers[1:3])
 print(numbers[:2])
 print(list_items.pop(2))
-
-
