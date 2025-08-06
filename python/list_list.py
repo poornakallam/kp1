@@ -13,6 +13,6 @@
 # print(arctic_animals.pop())
 
 animals={"name": "bear", "habbit": "omnivarous", "live": "forest", "lifespan": 9, "family": "yes"}
-print(animals[2])
+print(animals["live"])
 print("name" in animals)
 print(lifespan not in animals)
