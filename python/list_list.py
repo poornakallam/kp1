@@ -12,7 +12,7 @@
 # print(arctic_animals.index("reindeer"))
 # print(arctic_animals.pop())
 
-animals={"name": "bear", "habbit": "omnivarous", "live" "forest", "lifespan": 9, "family": "yes"}
+animals={"name": "bear", "habbit": "omnivarous", "live": "forest", "lifespan": 9, "family": "yes"}
 print(animals[2])
 print("name" in animals)
 print(lifespan not in animals)
