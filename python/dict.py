@@ -14,4 +14,5 @@ for key, value in kingdom.items():
 
     print(key, value)
 
-print(kingdom.get("Promise of the Real", "not a key in that dictionary."))
+print(kingdom.get("Bohemian Rhapsody", "not a value in that dictionary."))
+print(kingdom.get("Michael Jackson", "key in that list"))
