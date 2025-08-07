@@ -11,4 +11,4 @@ print(list(kingdom.values()))
 print(list(kingdom.items()))
 
 for item in kingdom.items():
-    print(list)
+    print(item)
