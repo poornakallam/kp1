@@ -7,6 +7,7 @@ kingdom={"Queen": "Bohemian Rhapsody",
         }
 print(len(kingdom))
 print(list(kingdom.keys()))
-print(type(kingdom.values()))
-print(type(kingdom.items()))
-
+print(list(kingdom.values()))
+print(list
+for list in kingdom.items():
+    print(list)
