@@ -10,5 +10,8 @@ print(list(kingdom.keys()))
 print(list(kingdom.values()))
 print(list(kingdom.items()))
 
-for item in kingdom.items():
-    print(item)
+for key, value in kingdom.items():
+
+    print(key, value)
+
+print(kingdom.get("Promise of the Real", "not a key in that dictionary."))
