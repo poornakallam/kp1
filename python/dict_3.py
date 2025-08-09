@@ -3,3 +3,8 @@ another_one = {"shroud": "Twitch"}
 
 print(internet_celebrities.update(another_one))
 print(internet_celebrities)
+
+insta_cel=internet_celebrities.copy()
+print(internet_celebrities.clear())
+print(internet_celebrities)
+print(insta_cel)
