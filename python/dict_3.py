@@ -2,3 +2,4 @@ internet_celebrities = {"DrDisrespect": "YouTube", "ZLaner": "Facebook", "Ninja"
 another_one = {"shroud": "Twitch"}
 
 print(internet_celebrities.update(another_one))
+print(internet_celebrities)
