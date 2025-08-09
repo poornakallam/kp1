@@ -15,7 +15,7 @@ jobs:
           python-version: '3.10'
       - name: run file
         run : |
-          python ./python/dict.py
+          python ./python/dict_method_2.py
           
 
         
