@@ -1,3 +1,5 @@
+#for key, value in {}.fromkeys("bcdf", "consonent").items():
+#    print(key, value)
 consonents={}.fromkeys(["abcd"], "consonents")
 
 for item in consonents.items():
@@ -7,6 +9,6 @@ print(len(consonents))
 fast_food_items = {"McDonald's": "Big Mac", 
                    "Burger King": "Whopper", 
                    "Chick-fil-A": "Original Chicken Sandwich"}
-print(fast_food_items.pop("McDonald's"))
+#print(fast_food_items.pop("McDonald's"))
 fast_food_items.popitem()
 print(fast_food_items)
