@@ -10,4 +10,4 @@ print(internet_celebrities)
 print(insta_cel)
 
 print(internet_celebrities.setdefault("Discovery", "billionaries"))
-print(intenet_celebrities)
+print(internet_celebrities)
