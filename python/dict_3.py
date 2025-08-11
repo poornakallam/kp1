@@ -8,3 +8,6 @@ insta_cel=internet_celebrities.copy()
 print(internet_celebrities.clear())
 print(internet_celebrities)
 print(insta_cel)
+
+print(internet_celebrities.setdefault("Discovery": "billionaries")
+print(intenet_celebrities)
