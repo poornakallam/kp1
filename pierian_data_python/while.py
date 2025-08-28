@@ -11,9 +11,9 @@ else:
 y="trunk"
 for v in y:
     if y == "u":
-        continue
+       continue
     print(y)
-    if y == "n":
-       pass
-    print(y)
+    # if y == "n":
+    #    pass
+    # print(y)
 
