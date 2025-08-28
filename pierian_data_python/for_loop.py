@@ -23,6 +23,6 @@ for item in dict:
     print(item)
 for key,value in dict:
     print(key)    
-    print(values)
+    print(value)
 for items in dict.items():
     print(items)
