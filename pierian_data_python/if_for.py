@@ -4,4 +4,4 @@ for num in my_list:
     if num % 2 == 0:
         print(num)
     else:
-        print("odd number: {}.format(num)")
+        print("odd number: {}".format(num))
