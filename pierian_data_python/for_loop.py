@@ -8,7 +8,7 @@ for num in my_list:
 
 for name in my_object:
     print(name)
-    print(cool!)
+    #print(cool!)
 
 tup=[(1,2),(3,4),(5,6)]
 
