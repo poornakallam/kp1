@@ -13,7 +13,7 @@ for v in y:
     if y == "u":
         continue
     print(y)
-    if y == "n"
+    if y == "n":
        pass
     print(y)
 
