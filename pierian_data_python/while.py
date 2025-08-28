@@ -1,7 +1,7 @@
 x=0
 
 while x < 5:
-    prnit(x)
+    print(x)
     x = x + 1
 else:
     print("nothing")
