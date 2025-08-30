@@ -5,6 +5,9 @@ mylist=[letter for letter in mystring] # copy from variable
 mylist01=[word for word in "hello"] # copy string value
 
 mylist02=[num**2 for num in mystringint]
+print(mylist)
+print(mylist01)
+print(mylist02)
 
 # give empty srting and copy value from one string to another
 #mylist.append(letter) - for letter in mystring:
