@@ -1,5 +1,5 @@
-for item in range(1,20,3):
-    print(item)
+# for item in range(1,20,3):
+#     print(item)
 
 index_count=0
 word="abcde"
@@ -10,3 +10,8 @@ for letter in word:
 #enumerate
 for items in enumerate("abcde"):
     print(items)
+
+mylist1=[1,2,3,4,5]
+mylist2=[a,b,c,d]
+for lists in zip(mylist1,mylist2):
+    print(lists)
