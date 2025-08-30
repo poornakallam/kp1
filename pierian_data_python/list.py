@@ -16,10 +16,16 @@ print(mylist03)
 #mylist.append(letter) - for letter in mystring:
 
 #Assignment
-list02=range(1,11)
+st="Print only the words that start with s in this sentence"
+for word in st.split():
+    print(word)
+
+list02=range(0,11,2)
 print(list02)
-list01=[num%3==0 for num in range(1,50)]
-print(list01)
+
+#list03=[num%3 for num in range(1,50,3)]
+#print(list03)
+
 myword="Print every word in this sentence that has an even number of letters"
 length=len(myword)
 if length%2==0:
