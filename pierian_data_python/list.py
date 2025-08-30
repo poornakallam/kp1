@@ -16,9 +16,13 @@ print(mylist03)
 #mylist.append(letter) - for letter in mystring:
 
 #Assignment
-
-print(range(1,11,1))
+list02=range(1,11)
+print(list02)
 list01=[num%3==0 for num in range(1,50)]
+print(list01)
 myword="Print every word in this sentence that has an even number of letters"
 print(len(myword))
-
+if len(myword)%2==0:
+    print("even")
+    else:
+        print("odd")
