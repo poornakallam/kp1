@@ -24,5 +24,3 @@ myword="Print every word in this sentence that has an even number of letters"
 length=len(myword)
 if length%2==0:
     print("even")
-    else:
-        print("odd")
