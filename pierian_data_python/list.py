@@ -9,7 +9,7 @@ print(mylist)
 print(mylist01)
 print(mylist02)
 
-mylist03=[if num%2==0 else "odd" for num in mystringint]
+mylist03=[num if num%2==0 else "odd" for num in mystringint]
 print(mylist03)
 
 # give empty srting and copy value from one string to another
