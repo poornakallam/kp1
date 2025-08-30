@@ -12,7 +12,7 @@ for items in enumerate("abcde"):
     print(items)
 
 mylist1=[1,2,3,4,5]
-mylist2=[a,b,c,d]
+mylist2=["a","b","c","d"]
 for lists in zip(mylist1,mylist2):
     print(lists)
 print(min(mylist1))
