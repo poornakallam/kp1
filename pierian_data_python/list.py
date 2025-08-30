@@ -14,3 +14,11 @@ print(mylist03)
 
 # give empty srting and copy value from one string to another
 #mylist.append(letter) - for letter in mystring:
+
+#Assignment
+
+print(range(1,11))
+list01=[num for num%3==0 in num range(1,50)]
+myword="Print every word in this sentence that has an even number of letters"
+print(len(myword))
+
