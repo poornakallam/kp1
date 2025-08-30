@@ -9,5 +9,7 @@ print(mylist)
 print(mylist01)
 print(mylist02)
 
+mylist03=[if num%2 else "odd" for num in mystringint]
+
 # give empty srting and copy value from one string to another
 #mylist.append(letter) - for letter in mystring:
