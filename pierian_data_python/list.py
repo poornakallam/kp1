@@ -17,7 +17,7 @@ print(mylist03)
 
 #Assignment
 
-print(range(1,11))
+print(range(1,11,1))
 list01=[num%3==0 for num in range(1,50)]
 myword="Print every word in this sentence that has an even number of letters"
 print(len(myword))
