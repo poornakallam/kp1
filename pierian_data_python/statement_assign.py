@@ -9,7 +9,7 @@ list02=range(0,11,2)
 print(list02)
 #03
 numbers=range(1,51)
-for items in numbers_range:
+for items in numbers:
     if items%3 == 0:
         print(items)
 #04
