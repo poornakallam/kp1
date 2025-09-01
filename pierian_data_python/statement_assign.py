@@ -11,7 +11,7 @@ print(list02)
 numbers=range(1,51)
 for items in numbers:
     if items%3 == 0:
-        print(list(items))
+        print(items)
 #04
 myword="Print every word in this sentence that has an even number of letters"
 length=len(myword)
