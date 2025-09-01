@@ -1,12 +1,13 @@
 #Assignment
 #01
 word="Print only the words that start with s in this sentence"
+print(word.split())
 new_word=word.split()
 if new_word[0] == "s":
-    print(new_word)
+    print("new_word")
 #02    
 list02=range(0,11,2)
-print(list02)
+print("list02")
 #03
 numbers=range(1,51)
 for items in numbers:
@@ -19,13 +20,13 @@ if length%2==0:
     print("even")
 
 #05
-numbers_range=range(1,100)
-if numbers_range%3 == 0 & numbers_range%5 == 0:
-    print("FizzBuss")
-    if numbers_range%3 == 0:
-        print("Fizz")
-        if numbers_range%5 == 0:
-            print("Buzz")
+# numbers_range=range(1,100)
+# if numbers_range%3 == 0 & numbers_range%5 == 0:
+#     print("FizzBuss")
+#     if numbers_range%3 == 0:
+#         print("Fizz")
+#         if numbers_range%5 == 0:
+#             print("Buzz")
 #06
 st = 'Create a list of the first letters of every word in this string'
 print(list(st[0][0]))
