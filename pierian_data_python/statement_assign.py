@@ -1,6 +1,6 @@
 #Assignment
 #01
-st="Print only the words that start with s in this sentence"
+word="Print only the words that start with s in this sentence"
 new_word=word.split[0]
 if new_word == "s":
     print(new_word)
