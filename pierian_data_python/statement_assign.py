@@ -9,15 +9,15 @@ list02=range(0,11,2)
 print(list02)
 #03
 numbers=range(1,51)
-if numbers%3 == 0:
-    print("numbers")
+for items in numbers_range:
+    if items%3 == 0:
+    print(items)
 #04
 myword="Print every word in this sentence that has an even number of letters"
 length=len(myword)
 if length%2==0:
     print("even")
-    else:
-        print("odd")
+
 #05
 # numbers_range=range(1,100)
 # if numbers_range%3 == 0 & numbers_range%5 == 0:
