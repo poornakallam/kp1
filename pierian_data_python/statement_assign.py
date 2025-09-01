@@ -8,9 +8,9 @@ if new_word == "s":
 list02=range(0,11,2)
 print(list02)
 #03
-if numbers%3 == 0:
 numbers=range(1,51)
-    print(numbers)
+if numbers%3 == 0:
+    print("numbers")
 #04
 myword="Print every word in this sentence that has an even number of letters"
 length=len(myword)
