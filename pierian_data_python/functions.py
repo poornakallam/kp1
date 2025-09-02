@@ -10,5 +10,6 @@ numbers(10,20)
 def return_nums(a,b):
     return a+b
     results = return_nums(10, 20)
+    print(results)
 return_nums('5','15')
 
