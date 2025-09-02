@@ -9,6 +9,7 @@ numbers(10,20)
 #03 - return function
 def return_nums(a,b):
     return a+b
-    results = return_nums(10, 20)
-    print(results)
+    print(a+b)
+    #results = return_nums(10, 20)
+    #print(results)
 
