@@ -1,6 +1,6 @@
 #01 - single argument
 def function_name(name):
-    print("Hello".format(name))
+    print("Hello.format(name)")
 function_name("Josh")
 #02 - multiple arguments
 def numbers(num1, num2):
