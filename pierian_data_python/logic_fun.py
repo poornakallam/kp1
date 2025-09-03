@@ -3,6 +3,8 @@ def print_even(numbers):
     for num in numbers:
         if num % 2 == 0:
             print(True)
+        else:
+            print(False)
 print_even([1,2,3,4,5,6])
 
 
