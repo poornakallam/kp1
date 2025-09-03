@@ -1,15 +1,15 @@
 print(20%2 == 0)
+def print_even(numbers):
+    for num in numbers:
+        if num % 2 == 0:
+            print(num)
+print_even([1,2,3,4,5,6])
 
-# def even_number_list(num_list):
-#     return num_list%2 == 0
-#     #print(num_list%2 == 0)
-# print(even_number_list([1,2,3,4]))
-# list and int not working at function variable or argument
 
-def numbers(number_even):
-    for num in number_even:
-        if num%2 == 0:
-            print(True)
-        else:
-            print(False)
-numbers(30)       
+# def numbers(number_even):
+#     for num in number_even:
+#         if num%2 == 0:
+#             print(True)
+#         else:
+#             print(False)
+# numbers(30)
