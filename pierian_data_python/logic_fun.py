@@ -28,4 +28,3 @@ def even_numbers(numbers_s):
     return even        
 results=even_numbers([1,2,3,4,5,6])
 print(results)
-
