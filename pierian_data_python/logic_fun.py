@@ -17,3 +17,15 @@ def count_words(words):
 result = count_words(["hi", "apple", "p", "dog" "banned" ])
 print(result)
 
+#pass condition
+def even_numbers(numbers_s):
+    even = []
+    for numb in numbers_s:
+        if numb % 2 == 0:
+            even.append(numb)
+        else:
+            pass
+        return even        
+results=even_numbers([1,2,3,4,5,6])
+print(results)
+
