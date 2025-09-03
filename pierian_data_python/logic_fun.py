@@ -11,7 +11,7 @@ print_even([2,3,4,5,6])
 def count_words(words):
     count = 0
     for word in words:
-        if word > 3:
+        if len(word) > 3:
             count += 1
     return count
 count_words(["hi", "apple", "p", "dog" "banned" ])
