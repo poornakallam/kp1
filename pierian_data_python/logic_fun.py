@@ -8,7 +8,7 @@ print(20%2 == 0)
 
 def numbers(number_even):
     for num in number_even:
-        if num % 2 == 0:
+        if num%2 == 0:
             print(True)
         else:
             print(False)
