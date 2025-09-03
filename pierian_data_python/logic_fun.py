@@ -14,5 +14,6 @@ def count_words(words):
         if len(word) > 3:
             count += 1
     return count
+    print("count")
 count_words(["hi", "apple", "p", "dog" "banned" ])
 
