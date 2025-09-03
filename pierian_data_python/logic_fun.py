@@ -2,7 +2,7 @@ print(20%2 == 0)
 def print_even(numbers):
     for num in numbers:
         if num % 2 == 0:
-            print(num)
+            print(True)
 print_even([1,2,3,4,5,6])
 
 
