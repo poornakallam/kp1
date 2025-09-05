@@ -8,6 +8,6 @@ def process_pairs():
 
     for x,y in pairs:
         if x % 2 == 1:
-            print(x " is odd and " + y)
+            print(f"{x} is even, y={y}")
 
 
