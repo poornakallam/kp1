@@ -12,9 +12,10 @@ def process_pairs():
 process_pairs() # without closing function print not works at 'if' condition
 
 def subject_marks():
-    marks = [("mon", (85, 95, 90)), ("tue", (80, 75, 65)), ("wed", (70, 65, 50))]
+    marks = [("moon", (85, 95, 90)), ("sun", (80, 75, 65)), ("star", (70, 65, 50))]
     for x, (a,b,c) in marks:
-        if a >= 80 and b > 70 and c > 75:
+        avg = (a+b+c)/3
+        if a >= 80 and b > 70 and c > 60 and avg >= 40:
             print(f"{x} is above {a}, {b} and {c}")
 subject_marks()            
 
