@@ -1,5 +1,5 @@
 def get_employee():
-    return [("aaa", 30), ("bbb", 25), ("ccc", 20), ("ddd": 35)]
+    return [("aaa", 30), ("bbb", 25), ("ccc", 20), ("ddd", 35)]
 
     for name, age in get_employee():
         if age > 25:
