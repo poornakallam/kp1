@@ -3,4 +3,4 @@ def get_employee():
 
     for name, age in get_employee():
         if age > 25:
-            print(name "is young")
+            print(name + "is young")
