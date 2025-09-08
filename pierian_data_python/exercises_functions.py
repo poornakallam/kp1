@@ -12,12 +12,12 @@
 #         print(False)        
 # intergers(5,25)      
 
-def myfunc(x,y):
-    if x % 2 == 0 and y % 2 == 0:
-        print(min(x,y))
-    else:
-        print(max(x,y))
-myfunc(6,8)
+# def myfunc(x,y):
+#     if x % 2 == 0 and y % 2 == 0:
+#         print(min(x,y))
+#     else:
+#         print(max(x,y))
+# myfunc(6,8)
 
 # Level 01
 def myfunc(name):
@@ -25,4 +25,8 @@ def myfunc(name):
     second_half = name[3:]
     print(first_half.capitalize() + second_half.capitalize())
 myfunc("macdonald")
+
+def words_reverse(text):
+    print(''.join(text[::-1]))
+words_reverse('I am here')
 
