@@ -27,9 +27,9 @@ def myfunc(name):
 myfunc("macdonald")
 
 def words_reverse(text):
-    text.split()
-    print(''.join(text[::-1]))
-words_reverse('I' 'am' 'here')
+    wordtext = text.split()
+    print(''.join(wordtext[::-1]))
+words_reverse('I am here')
 
 def number(x):
     if abs(100 - x <= 10) or abs(200 - x <=10):
