@@ -18,6 +18,11 @@ def myfunc(x,y):
     else:
         print(max(x,y))
 myfunc(6,8)
-# Level 01
 
+# Level 01
+def myfunc(name):
+    first_half = name[:3]
+    second_half = name[3:]
+    print(first_half.capitalize() + second_half.capitalize())
+myfunc("macdonald")
 
