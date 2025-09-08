@@ -15,9 +15,10 @@
 # Level 01
 def myfunc(a):
     out = []
-    out.append(a[0].upper())
-    out.append(a[4].upper())
-    return ''.join(out)
+    for func in myfunc:
+        out.append(a[0].upper())
+        out.append(a[3].upper())
+    return ''.join(func)
     
 result=myfunc("macdonald")
 print(result)
