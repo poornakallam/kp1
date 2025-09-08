@@ -32,7 +32,7 @@ def words_reverse(text):
 words_reverse('I' 'am' 'here')
 
 def number(x):
-    if abs(100 - n <= 10) or abs(200 - n <=10):
+    if abs(100 - x <= 10) or abs(200 - x <=10):
         print(True)
     else:
         print(False)
