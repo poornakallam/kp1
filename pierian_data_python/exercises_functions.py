@@ -1,7 +1,8 @@
 def animals(a,b):
-    if animals(a[0]) == animals(b[0]):
-        print(True)
-    else:
-        print(False)
+    for animal in animals:    
+        if animal(a[0]) == animal(b[0]):
+            print(True)
+        else:
+            print(False)
 animals("tiger", "turtle")
 
