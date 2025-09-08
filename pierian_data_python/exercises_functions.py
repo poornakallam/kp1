@@ -10,4 +10,4 @@ def intergers(x,y):
         print(True)
     else:
         print(False)        
-intergers(20,10)      
+intergers(5,20)      
