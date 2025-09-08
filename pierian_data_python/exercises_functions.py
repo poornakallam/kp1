@@ -4,5 +4,5 @@ def animals(a,b):
             print(True)
         else:
             print(False)
-animals("tiger", "turtle")
+animals("tiger","turtle")
 
