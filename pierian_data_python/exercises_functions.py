@@ -1,3 +1,6 @@
 def animals(a,b):   
-    a[0] == b[0]
-print(animals("tiger","turtle"))
+    if a[0] == b[0]:
+        print(True)
+    else:
+        print(False)        
+animals("tiger","turtle")
