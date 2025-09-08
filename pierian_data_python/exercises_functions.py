@@ -4,3 +4,10 @@ def animals(a,b):
     else:
         print(False)        
 animals("tiger","turtle")
+
+def intergers(x,y):
+    if x+y == 20 or x == 20 or y == 20:
+        print(True)
+    else:
+        print(False)        
+intergers(10,10)        
