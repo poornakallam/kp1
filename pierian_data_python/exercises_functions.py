@@ -27,7 +27,7 @@ def myfunc(name):
 myfunc("macdonald")
 
 def words_reverse(text):
-    text.split()v
+    text.split()
     print(''.join(text[::-1]))
 words_reverse('I' 'am' 'here')
 
