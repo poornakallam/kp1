@@ -12,13 +12,12 @@
 #         print(False)        
 # intergers(5,25)      
 
+def myfunc(x,y):
+    if x % 2 == 0 and y % 2 == 0:
+        print(min(x,y))
+    else:
+        print(max(x,y))
+myfunc(6,8)
 # Level 01
-def myfunc(a):
-    out = []
-    for func in myfunc:
-        out.append(a[0].upper())
-        out.append(a[3].upper())
-    return ''.join(func)
-    
-result=myfunc("macdonald")
-print(result)
+
+
