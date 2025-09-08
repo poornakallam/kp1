@@ -1,0 +1,8 @@
+def animals(a,b):
+    for animal in animals:
+        if animal[0] == animal[0]:
+            print(True)
+        else:
+            print(False)
+animals("tiger", "turtle")
+
