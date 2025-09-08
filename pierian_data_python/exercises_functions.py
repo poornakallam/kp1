@@ -17,6 +17,7 @@ def myfunc(a):
     out = []
     out.append(a[0].upper())
     out.append(a[4].upper())
-    ''.join(out)
-myfunc("macdonald")
-print(out)
+    return ''.join(out)
+    
+result=myfunc("macdonald")
+print(result)
