@@ -36,7 +36,7 @@ def number(x):
         print(True)
     else:
         print(False)
-number(90)
+number(104)
 
 
 
