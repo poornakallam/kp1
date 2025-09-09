@@ -40,7 +40,10 @@
 # number(50)
 
 #Level 2
-def function(nums):
-    for i in range(0,len(nums)):
-        print(f"{i},{nums{i}},{nums{i+1}}")
-function([10,20,30,40])        
+def 33(nums):
+    for i in range(0, len(nums)):
+        if num[i] == 3 and num[i+1] == 3:
+            print(True)
+        else:
+            print(False)            
+nums([1,3,3,1,3,3])
