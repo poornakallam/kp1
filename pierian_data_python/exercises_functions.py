@@ -52,6 +52,16 @@ def func(text):
     triple = ''
     for i in text:
         triple += i * 3
-        return triple
-results=func('hello')
+        print(triple)
+func('hello')        
+
+def intergers(a,b,c):
+    if sum(a,b,c) <= 21:
+        return sum(a,b,c)
+    elif sum(a,b,c) > 21 and sum(a,b,c) == 11:
+        sum(a,b,c)-10
+        return sum(a,b,c)
+    else:
+        return BUST
+results=intergers(7,6,5)
 print(results)
