@@ -20,23 +20,23 @@
 # myfunc(6,8)
 
 # Level 01
-def myfunc(name):
-    first_half = name[:3]
-    second_half = name[3:]
-    print(first_half.capitalize() + second_half.capitalize())
-myfunc("macdonald")
+# def myfunc(name):
+#     first_half = name[:3]
+#     second_half = name[3:]
+#     print(first_half.capitalize() + second_half.capitalize())
+# myfunc("macdonald")
 
-def words_reverse(text):
-    wordtext = text.split()
-    print(wordtext[::-1])
-words_reverse('I am here')
+def reverse_func(text):
+    word = text.split()
+    reverse_word = word[::-1]
+reverse_func("work with python")
 
 def number(x):
     if abs(100 - x <= 10) or abs(200 - x <=10):
         print(True)
     else:
         print(False)
-number(104)
+number(150)
 
 
 
