@@ -28,16 +28,16 @@
 
 def reverse_func(text):
     word = text.split()
-    reverse_word = word[::-1]
+    reverse_word = ''.join(word[::-1])
     print(reverse_word)
 reverse_func("work with python")
 
-def number(x):
-    if abs((100 - x) <= 10) or abs((200 - x) <=10):
-        print(True)
-    else:
-        print(False)
-number(50)
+# def number(x):
+#     if abs((100 - x) <= 10) or abs((200 - x) <=10):
+#         print(True)
+#     else:
+#         print(False)
+# number(50)
 
 
 
