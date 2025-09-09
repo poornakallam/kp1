@@ -26,11 +26,11 @@
 #     print(first_half.capitalize() + second_half.capitalize())
 # myfunc("macdonald")
 
-def reverse_func(text):
-    word = text.split()
-    reverse_word = ' '.join(word[::-1])
-    print(reverse_word)
-reverse_func("work with python")
+# def reverse_func(text):
+#     word = text.split()
+#     reverse_word = ' '.join(word[::-1])
+#     print(reverse_word)
+# reverse_func("work with python")
 
 # def number(x):
 #     if abs((100 - x) <= 10) or abs((200 - x) <=10):
@@ -39,5 +39,8 @@ reverse_func("work with python")
 #         print(False)
 # number(50)
 
-
-
+#Level 2
+def function(nums):
+    for i in range(0,len(nums)):
+        print(f'{i},{i} and {i+1}')
+function(10,20,30,40)        
