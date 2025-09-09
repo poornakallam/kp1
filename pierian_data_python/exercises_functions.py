@@ -28,8 +28,8 @@
 
 def reverse_func(text):
     word = text.split()
-    print(word)
-    #reverse_word = ''.join(word[::-1])
+    reverse_word = word[::-1]
+    print(reverse_word)
 reverse_func("work with python")
 
 def number(x):
