@@ -40,10 +40,10 @@
 # number(50)
 
 #Level 2
-def 33(nums):
+def hang_33(nums):
     for i in range(0, len(nums)):
         if num[i] == 3 and num[i+1] == 3:
             print(True)
         else:
             print(False)            
-nums([1,3,3,1,3,3])
+hang_33([1,3,3,1,3,3])
