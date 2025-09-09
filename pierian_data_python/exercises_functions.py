@@ -51,7 +51,7 @@ print(result)
 def func(text):
     triple = ''
     for i in text:
-        triple.append(len(text[i]) * 3)
-        return triple
-results=func("hello")        
+        #triple += i * 3
+        triple.append(text[i] *3)
+results=func("hello")
 print(results)
