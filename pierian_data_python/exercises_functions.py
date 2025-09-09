@@ -43,4 +43,4 @@
 def function(nums):
     for i in range(0,len(nums)):
         print(f'{i},{i} and {i+1}')
-function(10,20,30,40)        
+function([10,20,30,40])        
