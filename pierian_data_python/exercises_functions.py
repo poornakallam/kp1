@@ -44,6 +44,14 @@ def hang_33(nums):
     for i in range(len(nums)-1):
         if nums[i] == 3 and nums[i+1] == 3:
             return True
-    return False                      
+    return False                     
 result=hang_33([1,3,3,1,3,3])
 print(result)
+
+def func(text):
+    triple = ''
+    for i in text:
+        triple.append(text[i] * 3)
+        return triple
+results=func("hello")        
+print(results)
