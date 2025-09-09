@@ -52,6 +52,6 @@ def func(text):
     triple = ''
     for i in text:
         triple += i * 3
-        print(triple)
+        return triple
 results=func('hello')
 print(results)
