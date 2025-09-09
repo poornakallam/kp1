@@ -63,5 +63,5 @@ def intergers(a,b,c):
         return sum([a,b,c])
     else:
         return "BUST"
-results=intergers(7,6,5)
+results=intergers(11,6,5)
 print(results)
