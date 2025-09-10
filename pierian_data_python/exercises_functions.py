@@ -64,3 +64,14 @@ def intergers(a,b,c):
         return "BUST"
 results=intergers(11,11,10)
 print(results)
+
+#level 3
+# get 007 from function if consuctive or any order
+def seven(nums):
+    code = [0,0,7,'x']
+    for num in nums:
+        if num == code[0]:
+            code.pop(0)
+    return len(code) == 1
+res=seven([1,4,5,0,0,7])
+print(res)
