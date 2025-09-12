@@ -5,10 +5,8 @@ def parameter():
     def params():
         name = "third time" #Local
         print("Hello " + name)
-    params()    
+    params()  
     print("Hello " + name)
 parameter()
 
-print(params)
-print(parameter)
 print(name)
