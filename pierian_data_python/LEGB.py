@@ -10,3 +10,11 @@ def parameter():
 parameter()
 
 print(name)
+
+number = 20
+def change():
+    global = number
+    number = 10
+    print(f"number is overridden by local var {number}")
+change()    
+print(number)
