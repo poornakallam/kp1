@@ -7,6 +7,7 @@ square(10)
 # map map() and filter filter()
 
 def numbers(a):
-    print(filter(lambda x: x>10, map(lambda x: x * 5,a)))
-numbers([2,3,4,5,6,7])
+    filter(lambda x: x>10, map(lambda x: x * 5,a))
+results=numbers([2,3,4,5,6,7])
+print(list(results))
 
