@@ -8,6 +8,6 @@ square(10)
 
 def numbers(a):
     filter(lambda x: x>10, map(lambda x: x * 5))
-results=numbers([2,3,4,5,6,,7])
+results=numbers([2,3,4,5,6,7])
 print(results)
 
