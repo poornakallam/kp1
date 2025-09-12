@@ -1,9 +1,9 @@
 # lambda function is lambda argument: expresion
-def square(x):
-    return lambda x: x+5
-result=square(10)
-print(list(result))
-#square([5,10])
+# def square(x):
+#     return lambda x: x+5
+# result=square(10)
+# print(result)
+# #square([5,10])
 
 # map map() and filter filter()
 
