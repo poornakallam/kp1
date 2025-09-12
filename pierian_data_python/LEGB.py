@@ -13,7 +13,7 @@ print(name)
 
 number = 20
 def change():
-    global = number
+    global number # global value is overridden by local value
     number = 10
     print(f"number is overridden by local var {number}")
 change()    
