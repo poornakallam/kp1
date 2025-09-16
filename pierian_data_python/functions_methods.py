@@ -9,5 +9,5 @@ def ran_check(num,low,high):
         print(True)
     else:
         print(False)     
-ran_check(3,1,9)
+ran_check(9,1,3)
 
