@@ -15,6 +15,6 @@ number = 20
 def change():
     global number # global value is overridden by local value
     number = 10
-    print(f"number is overridden by local var {number}")
+    print(f"global number is overridden by local var {number}")
 change()    
 print(number)
