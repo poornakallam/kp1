@@ -4,5 +4,10 @@ results=vol(21)
 print(results)
 
 def ran_check(num,low,high):
-    print(f'{num} in the range between {low} and {high}')
-ran_check(9,1,3)
+    #print(f'{num} in the range between {low} and {high}')
+    if num > low and num < high:
+        print(True)
+    else:
+        print(False)     
+ran_check(3,1,9)
+
