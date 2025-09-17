@@ -21,6 +21,6 @@ def up_low(s):
         elif i.islower():
             lower_count += 1
     return upper_count, lower_count
-print(f'upper count is: {upper_count}')
-print(f'lower count is: {lower_count}')
+print("upper count is:" upper_count)
+print("lower count is:" lower_count)
 
