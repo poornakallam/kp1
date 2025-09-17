@@ -24,3 +24,7 @@ def up_low(s):
     print("upper count is:" + upper_count)
     print("lower count is:" + lower_count)
 
+def unique_list(list):
+    print(set(list))
+unique_list([1,1,1,1,2,2,3,3,3,3,4,5])
+
