@@ -12,13 +12,15 @@ def ran_check(num,low,high):
 ran_check(9,1,3)
 
 def up_low(s):
-    #s = "Hello Mr. Rogers, how are you this fine Tuesday?"
+    s = "Hello Mr. Rogers, how are you this fine Tuesday?"
+    upper_count = 0
+    lower_count = 0
     for i in s:
-        if i == s.upper():
-            print(f'upper letter count: {i}')
-        elif i == s.lower():
-            print(f'lower letter count: {i}')
-        else:
-            print("nothing")
-up_low("Hello Mr. Rogers, how are you this fine Tuesday?")
+        if i.isupper():
+            upper_count += 1
+        elif i.is.lower():
+            lower_count += 1
+    return upper_count, lower_count
+print(f'upper count is: {upper_count}')
+print(f'lower count is: {lower_count}')
 
