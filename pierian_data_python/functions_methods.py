@@ -18,7 +18,7 @@ def up_low(s):
     for i in s:
         if i.isupper():
             upper_count += 1
-        elif i.is.lower():
+        elif i.islower():
             lower_count += 1
     return upper_count, lower_count
 print(f'upper count is: {upper_count}')
